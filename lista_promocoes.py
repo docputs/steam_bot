@@ -25,8 +25,12 @@ def extrair_promocoes():
 
         desconto = jogo.find('div', class_='col search_price_discount_combined responsive_secondrow')
 
-        percentual = desconto.div.span.text[1:]
-        precos = desconto.find('div', class_='col search_price discounted responsive_secondrow').text
+        try:
+            percentual = desconto.div.text[2:5]
+            precos = desconto.find('div', class_='col search_price discounted responsive_secondrow').text
+        except Exception as e:
+            pass
+
         preco_inicio, preco_fim = dividir_preco(precos)
 
         lista += f'<strong>{nome}</strong>\n     {percentual} de desconto\n     de R${preco_inicio} por R${preco_fim}\n\n'

@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7ce6a6a-5ef2-4286-8fdf-854b96e66ae2" name="Default Changelist" comment="" />
+    <list default="true" id="c7ce6a6a-5ef2-4286-8fdf-854b96e66ae2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_promocoes.py" beforeDir="false" afterPath="$PROJECT_DIR$/lista_promocoes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cE5oNQm2WDDS0CxznjJJoD8fsl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,8 +24,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.lista_promocoes">
+    <configuration name="lista_promocoes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="steam_bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lista_promocoes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="steamweb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="steam_bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -40,6 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lista_promocoes" />
         <item itemvalue="Python.steamweb" />
       </list>
     </recent_temporary>
@@ -58,21 +90,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1893" height="274" key="GridCell.Tab.0.bottom" timestamp="1590084465970">
+    <state width="1893" height="274" key="GridCell.Tab.0.bottom" timestamp="1590095252103">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1893" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590084465970" />
-    <state width="1893" height="274" key="GridCell.Tab.0.center" timestamp="1590084465970">
+    <state width="1893" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590095252103" />
+    <state width="1893" height="274" key="GridCell.Tab.0.center" timestamp="1590095252103">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1893" height="274" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590084465970" />
-    <state width="1893" height="274" key="GridCell.Tab.0.left" timestamp="1590084465970">
+    <state width="1893" height="274" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590095252103" />
+    <state width="1893" height="274" key="GridCell.Tab.0.left" timestamp="1590095252102">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1893" height="274" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590084465970" />
-    <state width="1893" height="274" key="GridCell.Tab.0.right" timestamp="1590084465970">
+    <state width="1893" height="274" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590095252102" />
+    <state width="1893" height="274" key="GridCell.Tab.0.right" timestamp="1590095252103">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1893" height="274" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590084465970" />
+    <state width="1893" height="274" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590095252103" />
+    <state width="1893" height="340" key="GridCell.Tab.1.bottom" timestamp="1590094517204">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1893" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590094517204" />
+    <state width="1893" height="340" key="GridCell.Tab.1.center" timestamp="1590094517202">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1893" height="340" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590094517202" />
+    <state width="1893" height="340" key="GridCell.Tab.1.left" timestamp="1590094517201">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1893" height="340" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590094517201" />
+    <state width="1893" height="340" key="GridCell.Tab.1.right" timestamp="1590094517203">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1893" height="340" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590094517203" />
   </component>
 </project>
