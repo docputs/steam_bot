@@ -1,0 +1,14 @@
+beautifulsoup4==4.9.1
+cachetools==4.1.0
+certifi==2020.4.5.1
+chardet==3.0.4
+idna==2.8
+pkg-resources==0.0.0
+pycryptodomex==3.9.7
+pyTelegramBotAPI==3.7.1
+requests==2.21.0
+six==1.15.0
+soupsieve==2.0.1
+steam==1.0.0
+urllib3==1.24.3
+vdf==3.3
