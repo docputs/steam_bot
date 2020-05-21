@@ -20,6 +20,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.lista_promocoes">
     <configuration name="lista_promocoes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -85,6 +86,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="36" width="777" height="852" key="CommitChangelistDialog2" timestamp="1590093201663">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="440" y="36" width="777" height="852" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1590093201663" />
     <state width="1893" height="340" key="GridCell.Tab.0.bottom" timestamp="1590095336564">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -117,5 +122,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1893" height="340" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590095336565" />
+    <state x="322" y="97" key="SettingsEditor" timestamp="1590093181393">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="322" y="97" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1590093181393" />
   </component>
 </project>
