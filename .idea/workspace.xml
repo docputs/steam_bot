@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7ce6a6a-5ef2-4286-8fdf-854b96e66ae2" name="Default Changelist" comment="" />
+    <list default="true" id="c7ce6a6a-5ef2-4286-8fdf-854b96e66ae2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steamweb.py" beforeDir="false" afterPath="$PROJECT_DIR$/steamweb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="steam_bot" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,7 +30,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.lista_promocoes">
+  <component name="RunManager" selected="Python.telegram">
     <configuration name="lista_promocoes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="steam_bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,10 +73,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="telegram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="steam_bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/telegram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lista_promocoes" />
+        <item itemvalue="Python.telegram" />
         <item itemvalue="Python.steamweb" />
+        <item itemvalue="Python.lista_promocoes" />
       </list>
     </recent_temporary>
   </component>
@@ -85,43 +115,54 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="440" y="36" width="777" height="852" key="CommitChangelistDialog2" timestamp="1590093201663">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="440" y="36" width="777" height="852" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1590093201663" />
-    <state width="1893" height="340" key="GridCell.Tab.0.bottom" timestamp="1590095336564">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1510" height="219" key="GridCell.Tab.0.bottom" timestamp="1590125316157">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1893" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590095336564" />
-    <state width="1893" height="340" key="GridCell.Tab.0.center" timestamp="1590095336564">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1510" height="219" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1590125316157" />
+    <state width="1510" height="219" key="GridCell.Tab.0.center" timestamp="1590125316156">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1893" height="340" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590095336564" />
-    <state width="1893" height="340" key="GridCell.Tab.0.left" timestamp="1590095336563">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1510" height="219" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1590125316156" />
+    <state width="1510" height="219" key="GridCell.Tab.0.left" timestamp="1590125316155">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1893" height="340" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590095336563" />
-    <state width="1893" height="340" key="GridCell.Tab.0.right" timestamp="1590095336564">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1510" height="219" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1590125316155" />
+    <state width="1510" height="219" key="GridCell.Tab.0.right" timestamp="1590125316156">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1893" height="340" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590095336564" />
-    <state width="1893" height="340" key="GridCell.Tab.1.bottom" timestamp="1590095336565">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1510" height="219" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1590125316156" />
+    <state width="1510" height="272" key="GridCell.Tab.1.bottom" timestamp="1590125316148">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1893" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590095336565" />
-    <state width="1893" height="340" key="GridCell.Tab.1.center" timestamp="1590095336565">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1510" height="272" key="GridCell.Tab.1.bottom/67.27.1533.873@67.27.1533.873" timestamp="1590125316148" />
+    <state width="1510" height="272" key="GridCell.Tab.1.center" timestamp="1590125316147">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1893" height="340" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590095336565" />
-    <state width="1893" height="340" key="GridCell.Tab.1.left" timestamp="1590095336564">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1510" height="272" key="GridCell.Tab.1.center/67.27.1533.873@67.27.1533.873" timestamp="1590125316147" />
+    <state width="1510" height="272" key="GridCell.Tab.1.left" timestamp="1590125316147">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1893" height="340" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590095336564" />
-    <state width="1893" height="340" key="GridCell.Tab.1.right" timestamp="1590095336565">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1510" height="272" key="GridCell.Tab.1.left/67.27.1533.873@67.27.1533.873" timestamp="1590125316147" />
+    <state width="1510" height="272" key="GridCell.Tab.1.right" timestamp="1590125316148">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1893" height="340" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590095336565" />
+    <state width="1510" height="272" key="GridCell.Tab.1.right/67.27.1533.873@67.27.1533.873" timestamp="1590125316148" />
     <state x="322" y="97" key="SettingsEditor" timestamp="1590093303396">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
