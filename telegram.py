@@ -1,9 +1,12 @@
 import telebot
 import steamweb
 import lista_promocoes
-from csv import DictWriter, DictReader
+from csv import DictWriter
 
-bot = telebot.TeleBot('1148615135:AAE3Gtp3EOSgc0uMp2KRpomdyFgNS5J4hRQ')
+with open('keys.txt', 'r') as keys:
+    TOKEN = keys.read().strip()
+
+bot = telebot.TeleBot(TOKEN)
 
 resposta_forcada = telebot.types.ForceReply()
 

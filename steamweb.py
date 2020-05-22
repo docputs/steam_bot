@@ -23,14 +23,15 @@ def meulevel(steamid=None):
 def meusjogos(steamid=None):
     api = WebAPI(key='C20F32188B2E214DB83F1A3626E34889')
 
-    jogos = 'Sua lista de jogos:\n\n'
+    jogos = '\U00002B07 Sua lista de jogos \U00002B07\n\n'
 
     lista = api.IPlayerService.GetOwnedGames(steamid=steamid, include_appinfo=True,
                                              include_played_free_games=False, appids_filter=False,
                                              include_free_sub=False)
 
     for jogo in lista['response']['games']:
-        jogos += f'<strong>{jogo["name"]}</strong>\n     {round(jogo["playtime_forever"]/60)} horas jogadas\n\n'
+        jogos += f'\U0001F535 <strong>{jogo["name"]}</strong>\n' \
+                 f'     {round(jogo["playtime_forever"]/60)} horas jogadas\n\n'
 
     return jogos
 
