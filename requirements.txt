@@ -3,7 +3,7 @@ cachetools==4.1.0
 certifi==2020.4.5.1
 chardet==3.0.4
 idna==2.8
-lxml==4.5.1
+lxml==4.6.2
 pkg-resources==0.0.0
 pycryptodomex==3.9.7
 pyTelegramBotAPI==3.7.1
